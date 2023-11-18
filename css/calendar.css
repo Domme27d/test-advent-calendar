@@ -22,7 +22,8 @@
     width: 5%; /* Adjust as needed */
     height: 5%; /* Adjust as needed */
     /* Individual positioning for each day-link */
-
+    border: 2px solid red; /* Red border for visibility */
+    box-sizing: border-box; /* Ensures the border is included in width/height calculations */
     /* Other styles as needed */
 }
 
